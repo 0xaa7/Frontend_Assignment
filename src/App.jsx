@@ -1,10 +1,20 @@
 import "./App.scss";
+import Navbar from "./components/navbar/navbar";
+import styled from 'styled-components';
+
+const StyledApp = styled.div`
+  font-family: 'Quicksand', sans-serif;
+`;
 
 const App = () => {
   return (
-    <div>
-      This is sparta
-    </div>
+    <StyledApp>
+    <section>
+      <Navbar />
+    </section>
+      
+      
+    </StyledApp>
   );
 };
 
