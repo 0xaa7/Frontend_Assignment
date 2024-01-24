@@ -1,0 +1,146 @@
+.page_container{
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  padding: 0px 200px 80px 200px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: rgba(26, 26, 26, 1);
+
+
+  .top_gradient {
+      width: 100%;
+      height: 198px;
+      display: flex;
+      position: relative;
+      left: 0;
+      right: 0;
+      top: 10%;
+      z-index: 1;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+      background: radial-gradient(60% 70% at 50% 5%, #ffbf008a 20%, rgba(0, 0, 0, 0.005) 70%);
+    }
+    .wrapper{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 40px;
+      align-self: stretch;
+      background-color: rgba(26, 26, 26, 1);
+
+     
+        .Text_container{
+          background: radial-gradient(60% 50% at 50% 5%, #ffbf0057 20%, rgba(0, 0, 0, 0.005) 70%);
+          display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            align-self: stretch;
+
+            .main_header{
+                width: 800px;
+                color:  #FFBF00;
+                  text-align: center;
+                  font-family: "Allerta Stencil";
+                  font-size: 48px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 72px;
+                  letter-spacing: -0.96px;
+                  margin-top: 180px;
+              }
+
+              .sub_header{
+                width: 800px;
+                color: var(--gray---for-text-400, #98A2B3);
+                  text-align: center;  
+                  font-family: Quicksand;
+                  font-size: 20px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 32px;
+              }  
+        }
+
+.cards{
+  gap:24px;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+
+  
+  .card{
+    width: 242px;
+      height: 322px;
+      display: flex;
+        padding: 24px;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        flex: 1 0 0;
+        align-self: stretch;
+      border-radius: 8px;
+        border: 1px solid rgba(202, 255, 51, 0.10);
+          background: linear-gradient(106deg, rgba(255, 191, 0, 0.05) -29.45%, rgba(255, 191, 0, 0.00) 27.86%), linear-gradient(267deg, #1C1C1C 40.67%, rgba(28, 28, 28, 0.00) 99.81%), url('/public/assets/background\ image.png');
+          background-blend-mode: normal, normal, screen;
+
+          p {
+              align-self: stretch;
+              color: rgba(179, 179, 179, 1);
+              font-family: Quicksand;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 30px;
+          
+            }
+        
+      
+  
+            .card_container{
+              
+                .icon_container{
+                  width: 70px;
+                  height: 70px;
+                   display: flex;
+                  padding: 12px;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 10px;
+                  border-radius: 70px;
+                  background: linear-gradient(180deg, rgba(255, 191, 0, 0.05) 0%, rgba(255, 191, 0, 0.00) 100%);
+                  
+                  .icon{
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    padding: 20px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    border-radius: 50px;
+                    
+                    background: linear-gradient(180deg, rgba(255, 191, 0, 0.10) -66.22%, rgba(255, 191, 0, 0.00) 85.46%);
+                    img{
+                      width:33px;
+                      height: 32px;
+                    }
+                    
+                    
+                  }
+                }
+                
+                
+              }
+            }
+          }
+          }
+        
+}

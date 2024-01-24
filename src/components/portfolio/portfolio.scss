@@ -1,0 +1,21 @@
+.porfolio{
+  display: flex;
+    height: 240px;
+    padding: 40px 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+    align-self: stretch;
+    background-color: rgba(26, 26, 26, 1);
+   
+
+    .card_container{
+      display: flex;  
+      padding: 20px 40px;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      flex: 1 0 0;
+    }
+}
