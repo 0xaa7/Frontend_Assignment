@@ -15,15 +15,15 @@ const OurServices = () => {
         <div className='bottom_container'>
           <div className='services'>
             <div className='card'>
-              <img src='public\assets\icon (1).png' />
+              <img src='./icon (1).png' />
               <p>Engineering</p>
             </div>
             <div className='card1'>
-              <img src='public\assets\Featured icon.png' />
+              <img src='./Featured icon.png' />
               <p>Software</p>
             </div>
             <div className='card1'>
-              <img src='public\assets\3.png'/>
+              <img src='./3.png'/>
               <p>Edu-tech</p>
             </div>
           </div>
