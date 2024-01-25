@@ -30,6 +30,7 @@ const Footer = () => {
             <p>Engineering</p>
             <p>Software</p>
             <p>Edu-Tech</p>
+          
           </div>
           <div className='r2'>
             <span>
