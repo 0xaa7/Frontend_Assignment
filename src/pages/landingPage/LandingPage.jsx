@@ -11,11 +11,8 @@ const LandingPage = () => {
             <br />
             your ideas to reality
           </span>
-
-          </div>
-             
+          </div>      
           <div className='sub'>
-
           <span className='sub_content'>
             Endless Solutions, One Destination
           </span>
