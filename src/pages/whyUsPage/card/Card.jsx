@@ -5,7 +5,7 @@ const Card = () => {
           <div className='card_container'>
                 <div className='icon_container'>
                   <div className='icon'>
-                    <img src='./COLLABORATIVE.png' />
+                    <img src='/public/assets/COLLABORATIVE.png' />
                   </div>
                     
                 </div>
