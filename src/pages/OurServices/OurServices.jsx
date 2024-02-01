@@ -24,15 +24,15 @@ const OurServices = () => {
         <div className='bottom_container'>
           <div className='services'>
             <div  onClick={handleClick} className={Click? 'clicked' : 'card'}>
-              <img src='/public/assets/icon (1).png' />
+              <img src='/assets/icon (1).png' />
               <p>Engineering</p>
             </div>
             <div onClick={handleClick} className={Click? 'clicked1' : 'card'} >
-              <img src='/public/assets/Featured icon.png'/>
+              <img src='/assets/Featured icon.png'/>
               <p>Software</p>
             </div>
             <div onClick={handleClick} className={Click? 'clicked2' : 'card'}>
-              <img src='/public/assets/3.png'/>
+              <img src='/assets/3.png'/>
               <p>Edu-tech</p>
             </div>
           </div>
