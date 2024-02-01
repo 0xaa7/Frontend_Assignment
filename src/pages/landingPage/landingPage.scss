@@ -2,7 +2,7 @@
   display: flex;
   width: 100%;
   height: 100vh;
-  background-image: url("/public/assets/gradient.png");
+ 
   justify-content: center;
   align-items: center;
 
@@ -25,21 +25,48 @@
         display: flex;
         text-align: center;
 
-        span {
-          width: 950px;
-          text-align: center;
-          font-family: "Allerta Stencil";
-          font-size: 100px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 120%;
-          letter-spacing: -6px;
-          text-transform: capitalize;
-          background: linear-gradient(92deg, #FFBF00 17.84%, #0D9BBF 48.87%, #FFF 87.19%);
-          background-clip: text;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
+span {
+    width: 950px;
+    text-align: center;
+    font-family: "Allerta Stencil";
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -6px;
+    background-size: 300%;
+    text-transform: capitalize;
+    background-image: linear-gradient(92deg, #FFBF00 17.84%, #0D9BBF 48.87%, #FFF 87.19%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 5s ease-in-out infinite;
+    
+  }
+    @keyframes animate {
+      0% {
+        background-position: 0 0;
+      }
+  
+      25% {
+        background-position: 50% 50%;
+      }
+  
+      50% {
+        background-position: 50% 100%;
+      }
+  
+      50% {
+        background-position: 0 40%;
+      }
+  
+      100% {
+        background-position: 0 0;
+      }
+    }
+
+
+
       }
 
       .sub {
@@ -71,5 +98,14 @@
       font-size: 18px;
       font-weight: 500;
     }
+
+    button:hover {
+      box-shadow: 0 0 2px rgba(255, 191, 0, 1);
+      box-shadow: 0 0 25px rgba(255, 191, 0, 0.724);
+      box-shadow: 0 0 40px rgba(255, 191, 0, 0.501);
+      transition: all 0.5s;
+    }
   }
 }
+
+  

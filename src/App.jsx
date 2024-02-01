@@ -16,22 +16,26 @@ const StyledApp = styled.div`
 const App = () => {
   return (
     <StyledApp>
+      
+      
       <section id="landing_page">
         <Navbar />
         <LandingPage />
-      </section>
-      <section>
+      
         <Portfolio />
-      </section>
-      <section>
+      
+     
         <WhyUsPage />
-      </section>
+     
       <section id="ourservices">
+
         <OurServices />
       </section>
-      <section>
+    
         <Footer />
+     
       </section>
+    
     </StyledApp>
   );
 };

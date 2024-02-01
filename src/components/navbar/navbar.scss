@@ -1,10 +1,16 @@
 .navbar {
   display: flex;
   height: 5em;
-  background-color: rgba(26, 26, 26, 0.6);
+  background-color: transparent;
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top:0;
+  overflow: hidden;
+    backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+  
 
   .wrapper {
     width: 1440px;
@@ -53,9 +59,14 @@
             gap: 8px;
 
             h2 {
-              font-size: 1em;
-              font-weight: 600;
-              color: rgba(255, 255, 255, 1);
+              color: #FFF;
+                font-family: Quicksand;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px;
+                
+                
             }
 
             .arrow {
@@ -63,11 +74,22 @@
             }
           }
         }
+
+        span:hover {
+          h2{
+            color:rgba(255, 191, 0, 1);
+          }
+            .arrow{
+              transform: rotate(180deg);
+              transition: all 0.5s;
+              color: rgba(255, 191, 0, 1);
+            }
+        }
       }
 
       button {
         width: 8.5em;
-        height: 2.25em;
+        height: 36px;
         background-color: rgba(255, 191, 0, 1);
         border: none;
         border-radius: 50px;
@@ -76,7 +98,23 @@
         justify-content: center;
         align-items: center;
         cursor: pointer;
+        overflow: hidden;
+        color: var(--Woodsmoke----BG-950----bg, #1A1A1A);
+          text-align: center;
+          font-family: Quicksand;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+
+
       }
+            button:hover {
+            box-shadow:0 0 5px rgba(255, 191, 0, 1) ;
+            box-shadow: 0 0 25px rgba(255, 191, 0, 0.805);
+            box-shadow: 0 0 50px rgba(255, 191, 0, 0.59);
+            transition: all 0.5s;
+            }
     }
   }
 }

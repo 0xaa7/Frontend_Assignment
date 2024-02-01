@@ -45,9 +45,11 @@ const Navbar = () => {
               </div>
             </div>
 
-            <button>
-              Contact Us
-            </button>
+            
+              <button>
+               Contact Us
+              </button>
+            
           </div>
         </div>
       </div>

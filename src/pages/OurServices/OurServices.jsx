@@ -1,6 +1,15 @@
+import { useState } from 'react';
 import './ourservices.scss';
 
 const OurServices = () => {
+
+  const [Click, setClick] = useState(false);
+
+  const handleClick = () => {
+  
+    setClick(!Click);
+  };
+
   return (
     <div className='ourservices'>
       <div className='wrapper'>
@@ -14,15 +23,15 @@ const OurServices = () => {
         </div>
         <div className='bottom_container'>
           <div className='services'>
-            <div className='card'>
+            <div  onClick={handleClick} className={Click? 'clicked' : 'card'}>
               <img src='/public/assets/icon (1).png' />
               <p>Engineering</p>
             </div>
-            <div className='card1'>
+            <div onClick={handleClick} className={Click? 'clicked1' : 'card'} >
               <img src='/public/assets/Featured icon.png'/>
               <p>Software</p>
             </div>
-            <div className='card1'>
+            <div onClick={handleClick} className={Click? 'clicked2' : 'card'}>
               <img src='/public/assets/3.png'/>
               <p>Edu-tech</p>
             </div>
